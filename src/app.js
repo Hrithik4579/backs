@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.static("public"))
 
 const corsOptions = {
-    origin: 'https://frontfinal-mhjo.onrender.com/',
+    origin: 'https://frontfinal-mhjo.onrender.com',
     credentials: true,
 };
 
